@@ -4,21 +4,21 @@
 Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em desenvolvimento de software e análise de dados. Busco constantemente aprimorar meus conhecimentos e aplicar boas práticas na criação de soluções que automatizem processos, organizem informações e agreguem valor ao negócio.
 
 <p align="left">
-    <a href="https://github.com/SEU_USUARIO?tab=followers">
+    <a href="https://github.com/Cauan-Silva?tab=followers">
         <img 
             alt="Seguidores" 
             title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/SEU_USUARIO?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
+            src="https://custom-icon-badges.demolab.com/github/followers/Cauan-Silva?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
         />
     </a>
-    <a href="https://github.com/SEU_USUARIO?tab=repositories&sort=stargazers">
+    <a href="https://github.com/Cauan-Silva?tab=repositories&sort=stargazers">
         <img 
             alt="Total de estrelas" 
             title="Total de estrelas GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/stars/SEU_USUARIO?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
+            src="https://custom-icon-badges.demolab.com/github/stars/Cauan-Silva?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=estrelas"
         />
     </a>
-    <a href="[SEU_LINKEDIN]">
+    <a href="https://www.linkedin.com/in/cauan-da-silva-dos-santos-b9649a267/">
         <img 
             alt="LinkedIn" 
             title="Conecte-se comigo no LinkedIn" 
@@ -34,8 +34,8 @@ Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em d
 - 🎓 Estudante de **Engenharia da Computação**
 - 💻 Foco em **desenvolvimento de software** e **análise de dados**
 - 🐍 Apaixonado por **Python** e **SQL**
-- ☁️ Atualmente aprendendo **AWS** e aprimorando habilidades em manipulação de dados
-- 🎯 Busco recolocação como **Desenvolvedor de Software** ou **Analista de Dados**
+- 📊 Experiência com **Pandas** e **OpenPyXL** para automação e tratamento de dados
+- 🎯 Busco atuar como **Desenvolvedor de Software** ou **Analista de Dados**
 - 🧠 Curioso por natureza, sempre em busca de aprender novas tecnologias
 
 ---
@@ -144,12 +144,12 @@ Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em d
     alt="GitHub Stats" 
     height="200" 
     style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
+    src="https://github-readme-stats.vercel.app/api?username=Cauan-Silva&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
   />
   <img 
     align="left" 
     alt="GitHub Stats" 
     height="200" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cauan-Silva&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
 </p>
