@@ -7,6 +7,3 @@
 
 👀Mesmo com pouco tempo de experiência, acredito que a prática é o caminho para a perfeição. Estou sempre em busca de novos desafios e oportunidades para aprender mais e expandir meus conhecimentos.
 
-
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
-          
