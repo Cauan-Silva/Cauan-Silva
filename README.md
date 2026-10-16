@@ -1,7 +1,7 @@
 # 👨‍💻 Cauan
 **Desenvolvedor de Software & Analista de Dados**
 
-Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em desenvolvimento de software e análise de dados. Busco constantemente aprimorar meus conhecimentos e aplicar boas práticas na criação de soluções que automatizem processos, organizem informações e agreguem valor ao negócio.
+Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em desenvolvimento de software e análise de dados. Gosto de construir sistemas completos, do banco de dados à tela, que resolvem problemas reais: automatizar processos, organizar informações e agregar valor ao negócio.
 
 <p align="left">
     <a href="https://github.com/Cauan-Silva?tab=followers">
@@ -29,12 +29,40 @@ Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em d
 
 ---
 
-### 🚀 Sobre Mim
+### 🚀 Projetos em destaque
+
+#### 🎧 [VYBE](https://github.com/Cauan-Silva/vybe): streaming de música no estilo Spotify
+Envie suas músicas, ouça faixas livres do Jamendo, conecte o Spotify e toque vídeos do YouTube, tudo no mesmo player, com fila, aleatório, playlists e curtidas.
+- Streaming de áudio com **HTTP Range** (206 Partial Content), igual aos players de verdade
+- **OAuth 2.0** com o Spotify, importação de playlists e reprodução pelo **Web Playback SDK**
+- Busca no **YouTube Data API** com cache para economizar a cota diária
+
+`Java 21` `Spring Boot 3` `Spring Security + JWT` `React 19` `PostgreSQL` `Flyway` `JUnit 5`
+
+#### 📅 [Agendamento](https://github.com/Cauan-Silva/agendamento): hora marcada para pequenos negócios
+Sistema para barbearias, salões e clínicas: o cliente vê só os horários realmente livres e agenda em poucos cliques; a equipe tem um painel com agenda do dia, folgas, cadastros e relatório mensal.
+- **Sem horário duplicado:** a disponibilidade é recalculada e o profissional é travado no banco ao agendar
+- Confirmação por **e-mail**, lembrete na véspera e atalho para o **WhatsApp** do cliente
+- **Relatório mensal** com faturamento, cancelamentos e desempenho por profissional e serviço
+
+`Java 21` `Spring Boot 3` `React 19` `PostgreSQL` `Flyway` `Docker` `Swagger`
+
+#### 📦 [Sistema de Estoque e Compras](https://github.com/Cauan-Silva/sistema-estoque): da solicitação ao recebimento
+Controla o estoque e todo o ciclo de compras (solicitação, cotações, aprovação, pedido e recebimento), com entrada automática dos materiais no estoque.
+- **Sugestão de compra** pelo estoque mínimo, consumo médio e prazo de entrega
+- **Leitura de orçamentos com IA**, exportação para Excel e PDF, auditoria e perfis de permissão
+- Testes automáticos com **GitHub Actions** a cada push
+
+`Python` `FastAPI` `PostgreSQL` `Alembic` `JWT` `Docker` `GitHub Actions`
+
+---
+
+### 🧑‍🎓 Sobre Mim
 
 - 🎓 Estudante de **Engenharia da Computação**
-- 💻 Foco em **desenvolvimento de software** e **análise de dados**
-- 🐍 Apaixonado por **Python** e **SQL**
-- 📊 Experiência com **Pandas** e **OpenPyXL** para automação e tratamento de dados
+- 💻 Foco em **desenvolvimento de software** (back-end e full stack) e **análise de dados**
+- ☕ Construo APIs REST com **Java + Spring Boot** e **Python + FastAPI**, e telas com **React**
+- 🐍 Apaixonado por **Python** e **SQL**; uso **Pandas** e **OpenPyXL** para automação e tratamento de dados
 - 🎯 Busco atuar como **Desenvolvedor de Software** ou **Analista de Dados**
 - 🧠 Curioso por natureza, sempre em busca de aprender novas tecnologias
 
@@ -42,94 +70,52 @@ Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em d
 
 ### 🤖 Linguagens e Tecnologias
 
-<img 
-    align="left" 
-    alt="Python"
-    title="Python" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Java" 
-    title="Java"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
-    title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Go"
-    title="Go" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="MySQL" 
-    title="MySQL"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="MariaDB" 
-    title="MariaDB"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Docker"
-    title="Docker" 
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Git" 
-    title="Git"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="VS Code" 
-    title="VS Code"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="Postman" 
-    title="Postman"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" 
-/>
-<br/>
-<br/>
+**Linguagens**
+
+<p align="left">
+    <img alt="Java" title="Java" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg" />
+    <img alt="Python" title="Python" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" />
+    <img alt="JavaScript" title="JavaScript" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" />
+    <img alt="Go" title="Go" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/go/go-original.svg" />
+    <img alt="SQL" title="SQL" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+</p>
+
+**Frameworks e bibliotecas**
+
+<p align="left">
+    <img alt="Spring Boot" title="Spring Boot" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/spring/spring-original.svg" />
+    <img alt="FastAPI" title="FastAPI" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/fastapi/fastapi-original.svg" />
+    <img alt="React" title="React" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" />
+    <img alt="Vite" title="Vite" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vitejs/vitejs-original.svg" />
+    <img alt="Pandas" title="Pandas" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/pandas/pandas-original.svg" />
+</p>
+
+**Bancos de dados**
+
+<p align="left">
+    <img alt="PostgreSQL" title="PostgreSQL" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" />
+    <img alt="MySQL" title="MySQL" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" />
+    <img alt="MariaDB" title="MariaDB" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mariadb/mariadb-original.svg" />
+</p>
+
+**Ferramentas**
+
+<p align="left">
+    <img alt="Docker" title="Docker" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" />
+    <img alt="Git" title="Git" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" />
+    <img alt="GitHub Actions" title="GitHub Actions" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/githubactions/githubactions-original.svg" />
+    <img alt="Maven" title="Maven" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/maven/maven-original.svg" />
+    <img alt="VS Code" title="VS Code" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vscode/vscode-original.svg" />
+    <img alt="Postman" title="Postman" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postman/postman-original.svg" />
+</p>
 
 ---
 
 ### 📌 Experiência e Habilidades
 
-- **Manipulação e Análise de Dados**: Python com bibliotecas como **Pandas** e **OpenPyXL**, criando automações para tratamento de planilhas, consolidação de informações e geração de relatórios
-- **Consumo e Testes de APIs REST**: experiência com **Postman** para testes e validação de endpoints
-- **Modelagem de Banco de Dados**: criação de estruturas relacionais e desenvolvimento de consultas **SQL** otimizadas
-- **Desenvolvimento**: código organizado, de fácil manutenção e voltado para eficiência
+- **Desenvolvimento back-end**: APIs REST com autenticação JWT, validação, tratamento de erros padronizado (RFC 7807), migrações de banco e testes automatizados com JUnit, Mockito e Pytest
+- **Desenvolvimento front-end**: interfaces em **React** com estado global por contextos, responsivas para celular
+- **Integrações com APIs externas**: OAuth 2.0 (Spotify), YouTube Data API, Jamendo e envio de e-mails
+- **Manipulação e Análise de Dados**: Python com **Pandas** e **OpenPyXL**, criando automações para tratamento de planilhas, consolidação de informações e geração de relatórios
+- **Modelagem de Banco de Dados**: estruturas relacionais e consultas **SQL** otimizadas
+- **Boas práticas**: código organizado e de fácil manutenção, Docker, integração contínua e commits assinados
