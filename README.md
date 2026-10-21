@@ -32,12 +32,13 @@ Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em d
 ### 🚀 Projetos em destaque
 
 #### 🎧 [VYBE](https://github.com/Cauan-Silva/vybe): streaming de música no estilo Spotify
-Envie suas músicas, ouça faixas livres do Jamendo, conecte o Spotify e toque vídeos do YouTube, tudo no mesmo player, com fila, aleatório, playlists e curtidas.
-- Streaming de áudio com **HTTP Range** (206 Partial Content), igual aos players de verdade
-- **OAuth 2.0** com o Spotify, importação de playlists e reprodução pelo **Web Playback SDK**
-- Busca no **YouTube Data API** com cache para economizar a cota diária
+Envie suas músicas, ouça faixas livres do Jamendo, conecte o Spotify e toque vídeos do YouTube, tudo no mesmo player. Tem **programa para Windows** com atualização automática e **app Android** ligado a uma API na nuvem.
+- Streaming de áudio com **HTTP Range** (206 Partial Content) e arquivos no armazenamento S3, entregues direto ao player
+- **OAuth 2.0** com o Spotify, **YouTube Data API** com cache de cota e "Seu mês", um resumo mensal com gráficos
+- **App Android** com plugin nativo em Java (música com a tela apagada) e APK gerado e assinado no **GitHub Actions**
+- **Programa para Windows** em Electron com banco embutido, integração com o Discord e teclas de mídia
 
-`Java 21` `Spring Boot 3` `Spring Security + JWT` `React 19` `PostgreSQL` `Flyway` `JUnit 5`
+`Java 21` `Spring Boot 3` `Spring Security + JWT` `React 19` `PostgreSQL` `Electron` `Capacitor` `Docker` `JUnit 5`
 
 #### 📅 [Agendamento](https://github.com/Cauan-Silva/agendamento): hora marcada para pequenos negócios
 Sistema para barbearias, salões e clínicas: o cliente vê só os horários realmente livres e agenda em poucos cliques; a equipe tem um painel com agenda do dia, folgas, cadastros e relatório mensal.
@@ -118,4 +119,4 @@ Controla o estoque e todo o ciclo de compras (solicitação, cotações, aprova�
 - **Integrações com APIs externas**: OAuth 2.0 (Spotify), YouTube Data API, Jamendo e envio de e-mails
 - **Manipulação e Análise de Dados**: Python com **Pandas** e **OpenPyXL**, criando automações para tratamento de planilhas, consolidação de informações e geração de relatórios
 - **Modelagem de Banco de Dados**: estruturas relacionais e consultas **SQL** otimizadas
-- **Boas práticas**: código organizado e de fácil manutenção, Docker, integração contínua e commits assinados
+- **Boas práticas**: código organizado e de fácil manutenção, Docker, integração contínua e deploy na nuvem (Render, Neon e S3)
