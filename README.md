@@ -40,6 +40,15 @@ Servidores com canais de texto e de voz, cargos e permissões por canal, amigos,
 
 `Go` `React 19` `WebRTC` `Pion` `WebSocket` `PostgreSQL` `Redis` `Tauri` `Docker`
 
+#### ⏱️ [Estuda Junto](https://github.com/Cauan-Silva/estuda-junto): salas de estudo online em tempo real
+Pomodoro sincronizado para toda a sala, chat, quadro de tarefas, chamada de vídeo com compartilhamento de tela e ranking de quem mais focou. Está **[online](https://estuda-junto-0wi3.onrender.com)**.
+- **Cada sala é um ator:** uma goroutine é a única dona do estado da sala, sem travas nem condição de corrida (testes com `-race`)
+- **Relógio sincronizado sem mandar segundos:** o servidor manda quando a fase termina e cada navegador corrige pela diferença de relógio
+- **Chamada de vídeo** de navegador para navegador com **WebRTC**, o servidor só repassa a negociação
+- Tempo de foco contado no servidor, com estatísticas, sequência de dias e ranking semanal
+
+`Go` `WebSocket` `WebRTC` `React 19` `PostgreSQL` `Docker` `GitHub Actions`
+
 #### 🎧 [VYBE](https://github.com/Cauan-Silva/vybe): streaming de música no estilo Spotify
 Envie suas músicas, ouça faixas livres do Jamendo, conecte o Spotify e toque vídeos do YouTube, tudo no mesmo player. Tem **programa para Windows** com atualização automática e **app Android** ligado a uma API na nuvem.
 - Streaming de áudio com **HTTP Range** (206 Partial Content) e arquivos no armazenamento S3, entregues direto ao player
