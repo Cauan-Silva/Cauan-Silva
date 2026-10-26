@@ -31,6 +31,15 @@ Estudante de Engenharia da Computação apaixonado por tecnologia, com foco em d
 
 ### 🚀 Projetos em destaque
 
+#### 💬 [Prosa](https://github.com/Cauan-Silva/prosa): conversa em tempo real no estilo Discord
+Servidores com canais de texto e de voz, cargos e permissões por canal, amigos, mensagens diretas, fios, enquetes e emojis próprios. Está **online** e tem **programa para Windows**.
+- **Voz, câmera e tela em até 1080p 60 fps** com WebRTC: direto entre os computadores em salas pequenas e por um **SFU próprio** (Pion) nas grandes
+- **Qualidade automática** pelas estatísticas do WebRTC e codec escolhido pelo hardware (AV1, VP9 ou H.264 na placa de vídeo)
+- **Gateway WebSocket** que filtra cada evento pelas permissões de quem recebe, rodando em várias instâncias com o **Redis**
+- **Supressão de ruído com IA** (RNNoise em WebAssembly) e programa em **Tauri** com pressionar para falar global
+
+`Go` `React 19` `WebRTC` `Pion` `WebSocket` `PostgreSQL` `Redis` `Tauri` `Docker`
+
 #### 🎧 [VYBE](https://github.com/Cauan-Silva/vybe): streaming de música no estilo Spotify
 Envie suas músicas, ouça faixas livres do Jamendo, conecte o Spotify e toque vídeos do YouTube, tudo no mesmo player. Tem **programa para Windows** com atualização automática e **app Android** ligado a uma API na nuvem.
 - Streaming de áudio com **HTTP Range** (206 Partial Content) e arquivos no armazenamento S3, entregues direto ao player
@@ -62,7 +71,7 @@ Controla o estoque e todo o ciclo de compras (solicitação, cotações, aprova�
 
 - 🎓 Estudante de **Engenharia da Computação**
 - 💻 Foco em **desenvolvimento de software** (back-end e full stack) e **análise de dados**
-- ☕ Construo APIs REST com **Java + Spring Boot** e **Python + FastAPI**, e telas com **React**
+- ☕ Construo APIs REST com **Java + Spring Boot**, **Python + FastAPI** e **Go**, e telas com **React**
 - 🐍 Apaixonado por **Python** e **SQL**; uso **Pandas** e **OpenPyXL** para automação e tratamento de dados
 - 🎯 Busco atuar como **Desenvolvedor de Software** ou **Analista de Dados**
 - 🧠 Curioso por natureza, sempre em busca de aprender novas tecnologias
@@ -116,6 +125,7 @@ Controla o estoque e todo o ciclo de compras (solicitação, cotações, aprova�
 
 - **Desenvolvimento back-end**: APIs REST com autenticação JWT, validação, tratamento de erros padronizado (RFC 7807), migrações de banco e testes automatizados com JUnit, Mockito e Pytest
 - **Desenvolvimento front-end**: interfaces em **React** com estado global por contextos, responsivas para celular
+- **Tempo real**: WebSocket, voz e vídeo com **WebRTC** (conexão direta e SFU), Redis Pub/Sub para várias instâncias
 - **Integrações com APIs externas**: OAuth 2.0 (Spotify), YouTube Data API, Jamendo e envio de e-mails
 - **Manipulação e Análise de Dados**: Python com **Pandas** e **OpenPyXL**, criando automações para tratamento de planilhas, consolidação de informações e geração de relatórios
 - **Modelagem de Banco de Dados**: estruturas relacionais e consultas **SQL** otimizadas
